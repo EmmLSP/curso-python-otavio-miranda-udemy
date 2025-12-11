@@ -1,4 +1,3 @@
-
 # Concatenacao (+) e repeticao (*) com operadores aritmeticos
 
 concatenacao = 'A' + 'B' + 'C'
