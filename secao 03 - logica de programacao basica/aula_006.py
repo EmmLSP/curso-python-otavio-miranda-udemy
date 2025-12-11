@@ -5,7 +5,7 @@
 # str, int, float, bool
 
 # + -> polimorfismo, utilizando o mesmo 
-# operador para fazer coisas diferentes
+# operador para fazer coisas diferentes 
 
 print(1 + 1)
 print('a' + 'b')
