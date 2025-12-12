@@ -1,5 +1,5 @@
 """
-Exercicio 13
+Exercicio 13 
 Faca um programa que leia a largura e a altura de uma
 parede em metros, calcule a sua area e a quantidade de
 tinta necessaria para pinta-la, sabendo que cada litro
