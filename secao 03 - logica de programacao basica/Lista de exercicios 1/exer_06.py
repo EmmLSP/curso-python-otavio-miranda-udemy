@@ -7,7 +7,6 @@ o seu dobro, triplo e raiz quadrada.
 from math import sqrt
 
 numero = input('Digite um numero: ')
-
 dobro = int(numero) * 2
 triplo = int(numero) * 3
 raiz_q = sqrt(int(numero))
