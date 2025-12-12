@@ -11,6 +11,6 @@ nota4_str = input('Quarta nota do aluno: ')
 nota1 = float(nota1_str)
 nota2 = float(nota2_str)
 nota3 = float(nota3_str)
-nota4 = float(nota1_str)
+nota4 = float(nota4_str)
 media = (nota1 + nota2 + nota3 + nota4) / 4
 print(f'A media entre {nota1:.1f}, {nota2:.1f}, {nota3:.1f} e {nota4:.1f} é igual a {media:.1f}')
