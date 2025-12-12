@@ -1,5 +1,5 @@
 """
-Exercicio 14
+Exercicio 14 
 Faca um algoritmo que leia o preco de um produto
 e mostre seu novo preco com 5% de desconto.
 """
