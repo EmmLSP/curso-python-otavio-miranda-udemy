@@ -1,4 +1,4 @@
-# Operador Lógico "and"
+# Operador Lógico "and" 
 
 # Operadores lógicos
 # and (e) or (ou) not (não)
