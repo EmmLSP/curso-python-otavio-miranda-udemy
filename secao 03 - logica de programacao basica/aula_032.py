@@ -93,6 +93,7 @@ tamanho_nome = len(nome)
 # string com valor = is not None = True
 # isalpha(), se for somente letras is True
 if nome and nome.isalpha():
+    # usar tamanho da string para validar que usuario esta fazendo
     if tamanho_nome > 1:
         print(f'Nome: {nome}')
         print(f'Tamanho nome: {tamanho_nome}')
