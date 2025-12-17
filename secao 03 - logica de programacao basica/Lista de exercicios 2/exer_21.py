@@ -1,5 +1,5 @@
 """
-Exercicio 21
+Exercicio 21 
 Faca um programa que leia 2 numeros e em seguida
 pergunte ao usuario qual operacao ele deseja realizar.
 O resultado da operacao deve ser acompanhado de uma
