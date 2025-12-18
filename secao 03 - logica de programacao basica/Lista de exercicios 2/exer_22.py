@@ -14,7 +14,6 @@ suspeita, entre 3 e 4 como cumplice e 5 como assissano.
 Caso contrario, sera classificado como inocente.
 """
 
-
 cont = 0
 resp1 = input('Telefoneu para a vitima? ').upper()
 if resp1 == 'S':
