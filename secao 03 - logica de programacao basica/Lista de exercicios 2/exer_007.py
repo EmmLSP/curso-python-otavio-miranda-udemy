@@ -1,5 +1,5 @@
 """
-Exercicio 07
+Exercicio 007
 Faca um programa que leia tres numeros e 
 mostre o maior e o menor deles.
 """
