@@ -1,5 +1,5 @@
 """
-Exercicio 06
+Exercicio 006
 Faca um programa que leia tres numeros e 
 mostre o maior deles.
 """
