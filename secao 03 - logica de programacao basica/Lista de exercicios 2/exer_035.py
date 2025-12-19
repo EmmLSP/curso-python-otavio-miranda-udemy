@@ -19,10 +19,10 @@ print('''Escolha uma das bases para conversao
 print('-' * 40)
 opcao = int(input('Sua opcao: '))
 if opcao == 1:
-    print(f'{num} convertido em BINARIO é igual a {str(bin(num))[2:]}')
+    print(f'{num} convertido em BINARIO é igual a {bin(num)[2:]}')
 elif opcao == 2:
-    print(f'{num} convertido em OCTAL é igual a {str(oct(num))[2:]}')
+    print(f'{num} convertido em OCTAL é igual a {oct(num)[2:]}')
 elif opcao == 3:
-    print(f'{num} convertido em HEXADECIMAL é igual a {str(hex(num))[2:]}')
+    print(f'{num} convertido em HEXADECIMAL é igual a {hex(num)[2:]}')
 else:
-    print('Opcao invalida!')
+    print('Opcao invalida. Tente novamente.')
