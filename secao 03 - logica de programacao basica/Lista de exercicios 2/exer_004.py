@@ -1,5 +1,5 @@
 """
-Exercicio 04
+Exercicio 004
 Faca um programa que verifique se uma letra 
 é vogal ou consoante.
 """
