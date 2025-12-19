@@ -1,5 +1,5 @@
 """
-Exercicio 05
+Exercicio 005
 Faca um programa para a leitura de duas notas
 parciais de um aluno. O programa deve calcular
 a media alcancada pelo aluno e apresenta:
