@@ -1,5 +1,5 @@
 """
-Exercicio 01
+Exercicio 001
 Faca um programa que peca dois numeros e imprima 
 o maior deles.
 """
