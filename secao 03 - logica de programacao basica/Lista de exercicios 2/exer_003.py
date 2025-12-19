@@ -1,5 +1,5 @@
 """
-Exercicio 03
+Exercicio 003
 Faca um programa que verifique se uma letra digitada
 é 'F' ou 'M'. Conforme a letra escrever: F-Feminino,
 M-Masculino, Sexo invalido.
