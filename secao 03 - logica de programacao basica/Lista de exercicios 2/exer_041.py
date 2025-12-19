@@ -28,4 +28,4 @@ elif 30 <= imc < 35:
 elif 35 <= imc < 40:
     print('Voce esta em OBESIDADE grau II')
 else:
-    print('Voce esta em obesidade morbida, cuidado!')
+    print('Voce esta em obesidade mórbida, cuidado!')
