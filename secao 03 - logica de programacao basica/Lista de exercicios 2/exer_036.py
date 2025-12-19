@@ -16,5 +16,5 @@ if num1 > num2:
 elif num2 > num1:
     maior_valor = 'O SEGUNDO valor é maior'
 else:
-    maior_valor = 'Não existe valor maior, os dois sao iguais'
+    maior_valor = 'Os dois sao IGUAIS'
 print(maior_valor)
