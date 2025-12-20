@@ -46,7 +46,7 @@ while True:
         resultado = num_1_float * num_2_float
 
     print('-' * 15)
-    print(f'Resultado: {num_1_float} {oper} {num_2_float} = {resultado}')
+    print(f'{num_1_float} {oper} {num_2_float} = {resultado}')
     print('-' * 15)
 
     while True:
@@ -59,7 +59,6 @@ while True:
         break
 
     if resp.startswith('s'):
-        system('cls')
         print('ENCERRANDO...')
         sleep(1)
         break
