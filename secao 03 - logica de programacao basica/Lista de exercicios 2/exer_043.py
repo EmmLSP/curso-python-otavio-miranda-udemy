@@ -36,7 +36,7 @@ if jogador == 0 or jogador == 1 or jogador == 2:
         if jogador == 0: # jogador jogou pedra
             print('EMPATE')
         elif jogador == 1: # jogador jogou papel
-            print('COMPUTADOR VENCE')
+            print('JOGADOR VENCE')
         elif jogador == 2: # jogador jogou tesoura
             print('COMPUTADOR VENCE')
     elif computador == 1: # computador jogou papel
