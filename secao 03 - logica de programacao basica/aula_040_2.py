@@ -3,7 +3,6 @@
 # Calculadora com while
 
 from time import sleep
-from os import system
 
 while True:
    
@@ -38,20 +37,21 @@ while True:
         continue
 
     print('Realizando sua conta. Confira o resultado abaixo:')
-    
-    if operador == '+':
-        resultado = num_1_float + num_2_float
-    elif operador == '-':
-        resultado = num_1_float - num_2_float
-    elif operador == '/':
-        resultado = num_1_float / num_2_float
-    elif operador == '*':
-        resultado = num_1_float * num_2_float
-    else:
-        print('Nunca deveria chegar aqui.')
 
-    print(f'{num_1_float} {operador} {num_2_float} = {resultado}')
+    if operador == '+':
+        print(f'{num_1_float} + {num_2_float} =', num_1_float + num_2_float)
+    elif operador == '-':
+        print(f'{num_1_float} - {num_2_float} =', num_1_float - num_2_float)
+    elif operador == '/':
+        print(f'{num_1_float} / {num_2_float} =', num_1_float / num_2_float)
+    elif operador == '*':
+        print(f'{num_1_float} * {num_2_float} =', num_1_float * num_2_float)
 
     sair = input('Quer sair? [S]im: ').lower().startswith('s')
+
     if sair is True:
+        print('ENCERRANDO...')
+        sleep(1)
         break
+
+print('<<< FIM DE PROGRAMA >>>')
