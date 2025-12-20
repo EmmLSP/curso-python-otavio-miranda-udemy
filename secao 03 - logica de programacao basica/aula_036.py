@@ -1,4 +1,4 @@
-# Operadores de atribuição com operadores aritméticos
+# Operadores de atribuição com operadores aritméticos 
 
 """
 Operadores de atribuição
