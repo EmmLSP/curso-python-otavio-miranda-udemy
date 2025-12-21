@@ -3,7 +3,7 @@
 # else e executado quando o laco vai ate o final
 # break -> interrompe o laco e o else nao e executado
 
-string = 'Valor qualquer'
+string = 'Valor qualquer' 
 
 i = 0
 while i < len(string):
