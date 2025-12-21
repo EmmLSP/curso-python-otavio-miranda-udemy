@@ -3,7 +3,7 @@
 # usa o while quando nao se sabe a quantidade de repeticoes
 # que serao necessarias para encerrar o laco
 
-""" senha_salva = '123456' # senha salva no banco de dados
+senha_salva = '123456' # senha salva no banco de dados
 senha_digitada = ''
 repeticoes = 0
 limite = 5
@@ -13,7 +13,7 @@ while senha_salva != senha_digitada:
     repeticoes += 1
 
 print(repeticoes)
-print('Aquele laco acima pode ter repeticoes infinitas') """
+print('Aquele laco acima pode ter repeticoes infinitas')
 
 # for usado quando se sabe a quantidade de vezes que um
 # laco vai acontencer
