@@ -29,7 +29,6 @@ permitindo que o professor digite o gabarito da prova
 antes dos alunos usarem o programa.
 """
 
-
 print('Preencha o gabarito com dez notas:')
 gabarito = ['', '', '', '', '', '', '', '', '', '']
 for n in range(len(gabarito)):
@@ -43,7 +42,7 @@ print()
 qtd_alunos = 0
 num_aluno = 0
 maior_acerto = menor_acerto = soma_media_turma = 0
-aluno_maior = aluno_menor = 0
+aluno_maior = aluno_menor = i = 0
 while True:  
     nota_aluno = []
     media_aluno = 0
@@ -70,9 +69,9 @@ while True:
         else:
             notas_aluno_str += f'\033[31m{nota}\033[m '
   
-    if n == 0:
+    if i == 0:
         maior_acerto = menor_acerto = acertos
-        aluno_maior = aluno_menor = qtd_alunos
+        aluno_maior = aluno_menor = num_aluno
     else:
         if acertos > maior_acerto:
             maior_acerto = acertos
@@ -103,7 +102,8 @@ while True:
             print('Entrada invalida! Digite \'S\' ou \'N\'')
             continue
         break
-
+    
+    i += 1
     qtd_alunos += 1
 
     if continuar == 'N':
@@ -111,7 +111,8 @@ while True:
 
 media_turma = soma_media_turma / qtd_alunos
 
-print(f'O aluno {aluno_maior} teve maior quantidades de acertos com {maior_acerto} acertos')
-print(f'O aluno {aluno_menor} teve menor quantidades de acertos com {menor_acerto} acertos')
+print('-' * 30)
+print(f'O aluno {aluno_maior} teve maior quantidades de acertos com {maior_acerto} no total')
+print(f'O aluno {aluno_menor} teve menor quantidades de acertos com {menor_acerto} no total')
 print(f'O sistema foi utilizado por {qtd_alunos} alunos')
 print(f'A media de notas da turma é {media_turma:.1f}')
