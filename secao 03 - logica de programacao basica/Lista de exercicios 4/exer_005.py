@@ -9,7 +9,7 @@ desconsidere-o.
 soma = 0
 numeros = ''
 for c in range(1, 7):
-    num = int(input(f'Digite {c} valor: '))
+    num = int(input(f'Digite o {c} valor: '))
     if num % 2 == 0:
         soma += num
         numeros += f'\033[1;32m{num}\033[m '
