@@ -23,12 +23,16 @@ for c in range(primeiro, decimo + razao, razao):
     print(f'{c} -> ', end='')
 print('ACABOU')
 
+print('=' * 30)
+print(f'{'10 TERMOS DE UMA PA':^30}')
+print('=' * 30)
+
 primeiro = int(input('Primeiro termo: '))
 razao = int(input('Razao: '))
 decimo = 0
 for c in range(0, 10):
-    decimo = primeiro + (c * razao)
-    print(decimo, end=' -> ')
+    pa = primeiro + (c * razao)
+    print(pa, end=' -> ')
 print('ACABOU')
 
 print('=' * 30)
