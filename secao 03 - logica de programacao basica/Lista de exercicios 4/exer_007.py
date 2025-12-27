@@ -17,7 +17,7 @@ print()
 
 print(f'O numero {num} foi divisivel {primo} vezes')
 if primo == 2:
-    print('É um numero PRIMO!')
+    print('E por isso ele é PRIMO!')
 else:
     print('E por isso ele NAO é PRIMO!')
 print()
