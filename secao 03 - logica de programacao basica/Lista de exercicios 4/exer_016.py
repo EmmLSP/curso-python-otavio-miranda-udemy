@@ -11,7 +11,7 @@ print('Gerador de PA')
 print('-=' * 15)
 
 primeiro = int(input('Primeiro termo: ')) 
-razao = int(input('Razao: '))
+razao = int(input('Razao da PA: '))
 decimo = primeiro + (10 - 1) * razao
 while primeiro <= decimo:
     print(primeiro, end='')
@@ -19,7 +19,7 @@ while primeiro <= decimo:
     primeiro += razao
 
 primeiro = int(input('Primeiro termo: ')) 
-razao = int(input('Razao: '))
+razao = int(input('Razao da PA: '))
 termo = primeiro
 c = 0
 while c < 10:
