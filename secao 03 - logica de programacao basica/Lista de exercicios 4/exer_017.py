@@ -21,9 +21,9 @@ while not sair:
         print(' -> ' if c < termos - 1 else ' -> PAUSA\n', end='')
         primeiro += razao
         c += 1
-    novos_termos = int(input('Quantos termos voce quer mostrar mais? '))
-    termos += novos_termos
-    if novos_termos == 0:
+    mais = int(input('Quantos termos voce quer mostrar mais? '))
+    termos += mais
+    if mais == 0:
         print('Finalizando...')
         sleep(1)
         sair = True
