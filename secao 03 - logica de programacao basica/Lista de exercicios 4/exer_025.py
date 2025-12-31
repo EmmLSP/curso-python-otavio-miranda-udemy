@@ -16,12 +16,11 @@ from os import system
 print('-' * 30)
 print(f'{'LOJA SUPER BARATAO':^30}')
 print('-' * 30)
-
-total = maior_1000 = preco_barato = 0
+total = maior_1000 = menor_preco = cont = 0
 prod_barato = ''
 while True:
     while True:
-        produto = input('Nome do produto: ')
+        produto = input(f'Nome do produto {cont + 1}: ').strip()
         if len(produto) < 3:
             print('Nome produto precisa ter 3 caracteres')
             continue
@@ -31,31 +30,37 @@ while True:
         preco = input('Preco: R$ ')
         try:
             preco = float(preco)
-            if preco < 0:
-                print('Preco precisa ser maior que zero')
+            if preco <= 0:
+                print('Preco do produto precisa ser maior que 0')
                 continue
             break
         except:
-            print('Digite um numero')
+            print('Entrada invalida! Digite um numero.')
 
     if preco > 1000:
         maior_1000 += 1
 
-    if total == 0:
-        preco_barato = preco
+    # simplificando codigo comentando abaixo
+    if cont == 0 or preco < menor_preco:
+        menor_preco = preco
         prod_barato = produto
-    else:
-        if preco < preco_barato:
-            preco_barato = preco
-            prod_barato = produto
+
+    # if cont == 0:
+    #     menor_preco = preco
+    #     prod_barato = produto
+    # else:
+    #     if preco < menor_preco:
+    #     menor_preco = preco
+    #         prod_barato = produto
 
     total += preco
+    cont += 1
 
     while True:
-        resp = input('Quer continuar? [S/N] ').lower()
+        resp = input('Quer continuar? [S/N] ').strip().lower()[0]
         if resp == 's' or resp == 'n':
             break
-        print('Resposta invalida! Digite \'S\' ou \'N\'')
+        print('Entrada invalida! Digite \'S\' ou \'N\'')
 
     if resp == 'n':
         system('cls')
@@ -68,4 +73,4 @@ while True:
 print(f'{' FIM DO PROGRAMA ':-^50}')
 print(f'O total da compra foi R${total:.2f}')
 print(f'Temos {maior_1000} produtos custando mais de R$1000.00')
-print(f'O produto mais barato foi {prod_barato.lower()}, que custa R${preco_barato:.2f}')
+print(f'O produto mais barato foi {prod_barato.lower()}, que custa R${menor_preco:.2f}')
