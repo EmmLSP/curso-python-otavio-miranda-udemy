@@ -9,9 +9,10 @@ o numero solicitado for negativo.
 from time import sleep
 
 while True:
-    num = int(input('Quer ver a tabuada de qual valor: '))
+    num = int(input('Quer ver a tabuada de qual valor? '))
     if num < 0:
         print(f'\nFinalizando programa...')
+        print('-' * 20)
         sleep(1.5)
         break
     print(f'\nTabuada do {num}:')
@@ -21,5 +22,4 @@ while True:
         sleep(0.5)
     print('-' * 20, '\n')
 
-print('-' * 20)
 print('PROGRAMA TABUADA ENCERRADO! Volte sempre!')
