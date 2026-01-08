@@ -78,4 +78,4 @@ lista.append(70)
 valor_indice_3 = lista.pop(3)
 print(lista, ' pop(3) -> removido:', valor_indice_3)
 
-# evirtar remover item do meio ou inicio da lista se ela for muito grande
+# evitar remover item do meio ou inicio da lista se ela for muito grande
