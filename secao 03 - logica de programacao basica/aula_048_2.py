@@ -34,6 +34,9 @@ print(lista[2])
 
 # delete - apagar
 lista = [10, 20, 30, 40]
+# todo lugar que referenciar na lista
+# vai ser mudado o valor para ser alterado
+# depois que linha que foi alterada
 lista[2] = 300
 print('antes  del', lista)
 del lista[2]
