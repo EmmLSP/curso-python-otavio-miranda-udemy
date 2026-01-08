@@ -102,7 +102,3 @@ lista.insert(100, 5) # falha do Python
 # IndexError: list index out of range
 print(lista[-1])
 print(lista[4])
-
-
-
-
