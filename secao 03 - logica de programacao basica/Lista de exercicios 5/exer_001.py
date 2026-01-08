@@ -18,10 +18,10 @@ contagem = ('zero', 'um', 'dois', 'tres', 'quatro',
 
 print('-' * 30)
 while True:
-    numero = int(input('Digite um numero entre 0 e 20: '))
     while True:
+        numero = int(input('Digite um numero entre 0 e 20: '))
         if numero < 0 or numero > 20:
-            numero = int(input('Tente novamente. Digite um numero entre 0 e 20: '))
+            print('Tente novamente. ', end='')
             continue
         break
 
