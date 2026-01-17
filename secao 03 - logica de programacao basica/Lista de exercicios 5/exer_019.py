@@ -1,5 +1,5 @@
 """
-Exercicio 019
+Exercicio 019 
 Faca um programa que leia nome e media
 de um aluno, guardando tambem a situacao
 em um dicionario. No final, mostre o 
