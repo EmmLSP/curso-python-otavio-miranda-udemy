@@ -1,5 +1,5 @@
 """
-Exercicio 020
+Exercicio 020 
 Crie um programa onde 4 jogadores joguem
 um dado e tenham resultados aleatorios.
 Guarde esses resultados em um dicionario.
