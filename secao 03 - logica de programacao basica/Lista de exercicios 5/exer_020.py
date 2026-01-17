@@ -27,7 +27,8 @@ for k, v in jogo.items():
 ranking = sorted(jogo.items(), key=itemgetter(1), reverse=True)
 print(ranking)
 
-print('Ranking dos vencedores:')
+print('-=' * 30)
+print('RANKING DOS JOGADORES:')
 for i, v in enumerate(ranking):
-    print(f'  - {i+1} lugar: {v[0]}: com {v[1]} pontos')
+    print(f'    {i+1}ª lugar: {v[0]}: com {v[1]} pontos')
     sleep(1)
