@@ -14,7 +14,7 @@ da media.
 
 pessoa = dict()
 pessoas = list()
-idades = media = 0
+soma = media = 0
 while True:
     pessoa.clear()
     pessoa['nome'] = str(input('Nome: '))
@@ -28,7 +28,7 @@ while True:
         if 0 <= pessoa['idade'] <= 110:
             break
         print('ERRO! Por favor, digite idade de 0 ate 110 anos') 
-    idades += pessoa['idade']
+    soma += pessoa['idade']
     pessoas.append(pessoa.copy()) # copia de pessoa em pessoas
     while True:
         resp = str(input('Quer continuar? [S/N] ')).upper()[0]
@@ -37,8 +37,7 @@ while True:
         print('ERRO! Responda apenas S ou N')
     if resp in 'N':
         break
-media = idades / len(pessoas)
-print(pessoas)
+media = soma / len(pessoas)
 print('-=' * 30)
 print(f'A) Ao todo temos {len(pessoas)} pessoas cadastradas')
 print(f'B) A media de idade é de {media:.2f} anos')
